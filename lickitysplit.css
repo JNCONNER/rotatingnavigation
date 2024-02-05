@@ -1,0 +1,61 @@
+h1 {
+    color: red;
+}
+
+.cat-profile {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cat-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .cat-name {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .cat-description {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .cat-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .cat-details li {
+    margin: 0 10px 10px 0;
+  }
+  
+  .adopt-button {
+    display: inline-block;
+    background-color: #f04;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .adopt-button:hover {
+    background-color: #e03;
+  }

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, white,  #ff7979);
+}
+
+.container {
+    width: 100%;
+    height:  auto;
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 100px;
+}
+
+.container .title {
+    display: flex;
+    justify-content: center;
+}
+
+.container .sub-title {
+   text-decoration: underline;
+   margin-left: 145px;
+   font-size: 23px;
+}
+
+.Div-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.Div-form input[type="text"],
+.Div-form input[type="email"],
+.Div-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.Div-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform:rotate(45deg);
+    animation: move-scale 5s infinite;
+}
+@keyframes move-scale {
+    0% {
+        left: 50px;
+        transform: scale(1);
+      }
+      50% {
+        left: 300px;
+        transform: scale(2);
+      }
+      100% {
+        left: 50px;
+        transform: scale(1);
+      }
+    }
+
+
+.Div-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
